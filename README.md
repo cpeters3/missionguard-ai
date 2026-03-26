@@ -28,8 +28,8 @@
 
 ## How to Run
 ```bash
-python src/simulate_data.py
-python src/preprocess.py
-python src/train.py
-python src/evaluate.py
+python src_simulate_data.py
+python src_preprocess.py
+python src_train.py
+python src_evaluate.py
 uvicorn src.api:app --reload
